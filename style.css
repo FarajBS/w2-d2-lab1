@@ -81,6 +81,7 @@ header .header-list .contianer-partlist button .dot {
 
 /* Main Section */
 main {
+    margin-top: 15vh;
     display: flex;
     justify-content: center;
     align-items: center;
