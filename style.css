@@ -123,6 +123,7 @@ main .main-contianer p {
     display: flex;
     justify-self: center;
     flex-wrap: wrap;
+    margin-top: 10vh;
 }
 
 .imagesTit .imgs {
@@ -160,46 +161,56 @@ main .main-contianer p {
 }
 
 .sec2 .foot {
+    width: 90vw;
+}
+
+.sec2 .foot {
     width: 100vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
 .sec2 .foot .imgs {
     width: 50vw;
     height: 50vh;
+    display: flex;
     justify-content: center;
-    flex-direction: column;
 }
 
 .sec2 .foot .imgs img {
-    width: 20vw;
-    height: 20vw;
+    width: 18vw;
+    height: 18vw;
     transition: all 0.5s;
     margin-bottom: 10px;
+
 }
 
 .sec2 .foot .art {
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    width: 30vw;
 }
 
+.sec2 .foot .art .article {
+    width: 30vw;
+    height: 40vh;
+    margin-left: 4vw;
+} 
+
 .sec2 .foot .art h2 {
-    font-size: 2rem;
+    font-size: 2.3rem;
     margin-bottom: 5vh;
 }
 
 .sec2 .foot .art p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     margin-bottom: 5vh;
-    text-align: end;
 }
 
 .sec2 .foot .art button {
     height: 9vh;
-    width: 20vw;
+    width: 15vw;
     display: flex;
     justify-content: space-around;
     align-items: center;
